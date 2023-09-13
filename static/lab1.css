@@ -15,3 +15,29 @@ img {
     border: 3px solid white;
 
 }
+
+div{
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 30px;
+}
+header {
+    background-color: rgb(68, 141, 173);
+    color: aliceblue;
+    padding: 5px;
+    font-size: 16pt;
+    font-family:'Courier New', Courier, monospace;
+}
+
+footer {
+    background-color: rgb(68, 141, 173);
+    color: aliceblue;
+    padding: 5px;
+    font-size: 11pt;
+    font-style: italic;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
