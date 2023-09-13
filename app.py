@@ -1,8 +1,9 @@
-from flask import Flask, redirect
+from flask import Flask, redirect, url_for
 app=Flask(__name__)
 
 @app.route("/")
 @app.route("/index")
+
 def start():
     return redirect("/menu", code=302)
 @app.route("/menu")
@@ -12,7 +13,7 @@ def menu():
 <html>
     <head>
         <title>
-            «НГТУ, ФБ, Лабораторные работы»
+            «НГТУ, ФБ, Лабораторные работы»1
         </title>
     </head>
 
@@ -65,3 +66,18 @@ def lab1():
     </body>
 </html>
 """
+@app.route('/lab1/dog')
+def dog():
+    return '''
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="''' +url_for('static', filename='lab1.css') + '''"">
+    </head>
+    <body>
+
+    <h1>Корги</h1>
+    <img src="'''+ url_for('static', filename='dog.jpeg') + '''"> 
+    </body>
+</html>
+'''
