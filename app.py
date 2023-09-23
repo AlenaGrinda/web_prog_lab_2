@@ -13,6 +13,8 @@ def menu():
 <html>
     <head>
     <link rel="stylesheet" href="''' +url_for('static', filename='lab1.css') + '''"">
+   
+    
         <title>
             «НГТУ, ФБ, Лабораторные работы»1
         </title>
@@ -25,6 +27,7 @@ def menu():
         <main>
         <h1>Лабораторные работы по WEB-программированию</h1>
             <li><a href="http://127.0.0.1:5000/lab1" target="_blank">Лабораторная работа 1</a></li>
+            <li><a href="http://127.0.0.1:5000/lab2/" target="_blank">Лабораторная работа 2</a></li>
         </main>
     
         <footer>
@@ -177,6 +180,7 @@ def example():
 @app.route('/lab2/')
 def lab2():
  return render_template('lab2.html')
+
 
 @app.route('/lab2/shoes')
 def shoes():
