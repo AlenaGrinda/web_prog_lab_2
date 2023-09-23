@@ -29,6 +29,13 @@ header {
     font-family:'Courier New', Courier, monospace;
 }
 
+main {
+    color: rgb(6, 48, 85);
+    padding: 5px;
+    font-size: 16pt;
+    font-family:'Courier New', Courier, monospace;
+}
+
 footer {
     background-color: rgb(68, 141, 173);
     color: aliceblue;
