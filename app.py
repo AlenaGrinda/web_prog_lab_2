@@ -170,12 +170,14 @@ def example():
         {'author': 'Джейн Остен', 'name': 'Гордость и предубеждение', 'genre': 'Роман', 'pages': 416},
         {'author': 'Данте Алигьери', 'name': 'Божественная комедия', 'genre': 'Поэма', 'pages': 464},
         {'author': 'Джеффри Чосер', 'name': 'Кентерберийские рассказы', 'genre': 'Проза', 'pages': 800},
-
-
-
     ]
+
     return render_template('example.html', name = name, group =  group, course = course, lab_num = lab_num, fruits=fruits, books = books)  
 
 @app.route('/lab2/')
 def lab2():
  return render_template('lab2.html')
+
+@app.route('/lab2/shoes')
+def shoes():
+ return render_template('shoes.html')
