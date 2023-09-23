@@ -3,23 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Гринда Алена. Лабораторная работа 2.</title>
+    <title>{% if name %}
+        {{ name }}, 
+    {% else %}
+        Анонимус,
+    {% endif %} 
+    Лабораторная работа 2.
+</title>
     <link rel="stylesheet" href="{{ url_for('static', filename= 'main.css') }}">
 </head>
 <body>
     <header>
-        WEB-программирование, часть 2. Лабораторная работа 2.
+        WEB-программирование, часть 2. {% if lab_num %}Лабораторная работа {{ lab_num }}{% endif %}
     </header>
 
     <main>
-        основной контент
-    </main>
+        основной контент<br>
         5 + 2 = {{5 + 2}} <br>
         11×28 = {{11*28}} <br>
         8452/793 = {{8452/793}} <br>
         45<sup>8</sup> = {{45**8}} <br>
+    </main>
+        
     <footer>
-        &copy; {{ name }}, {{ group }}, {{ course }}, 2023
+        &copy;
+        {% if name %}
+            {{ name }}, 
+        {% else %}
+            Анонимус,
+        {% endif %}
+        {% if group %}
+            {{ group }},
+        {% else %}
+            Отчислен,
+        {% endif %}
+        {% if group %}
+            {{ course }}, 
+        {% else %}
+            Ушел в академ
+        {% endif %}
+        2023
     </footer>
 </body>
 </html>
