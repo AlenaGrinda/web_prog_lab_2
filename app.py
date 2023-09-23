@@ -1,4 +1,4 @@
-from flask import Flask, redirect, url_for
+from flask import Flask, redirect, url_for, render_template
 app=Flask(__name__)
 
 @app.route("/")
@@ -61,6 +61,7 @@ def lab1():
         Относится к категории так называемых микрофреймворков — минималистичных каркасов веб-приложений, 
         сознательно предоставляющих лишь самые ба- зовые возможности.
         </div>
+        <a href="/menu">Меню</a>
         <h2>Реализованные роуты</h2>
         
             <li><a href="http://127.0.0.1:5000/lab1/dog" target="_blank">Корги</a></li>
@@ -147,3 +148,8 @@ def egor():
     </body>
 </html>
 '''
+
+@app.route('/lab2/example')
+def example():
+    name = 'Гринда Алена'
+    return render_template('example.html', name=name)   
