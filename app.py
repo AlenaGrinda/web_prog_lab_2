@@ -152,4 +152,6 @@ def egor():
 @app.route('/lab2/example')
 def example():
     name = 'Гринда Алена'
-    return render_template('example.html', name=name)   
+    group = 'ФБИ-13'
+    course = '3 курс'
+    return render_template('example.html', name=name, group=  group, course = course)   
