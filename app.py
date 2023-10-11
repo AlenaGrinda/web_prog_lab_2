@@ -185,3 +185,7 @@ def lab2():
 @app.route('/lab2/shoes')
 def shoes():
  return render_template('shoes.html')
+
+@app.route('/a')
+def a():
+ return 'b'
