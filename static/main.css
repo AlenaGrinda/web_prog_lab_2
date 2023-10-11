@@ -50,3 +50,12 @@ footer {
     right: 0;
     left: 0;
 }
+
+.error {
+    text-align: left;
+    color: rgb(203, 24, 0);
+    padding: 5px;
+    font-size: 16pt;
+    font-family:'Courier New', Courier, monospace;
+
+}
