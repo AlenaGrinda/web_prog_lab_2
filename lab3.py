@@ -8,16 +8,14 @@ def lab():
 
 @lab3.route('/lab3/form1')
 def form1():
-    errors = {}
-    user = request.args.get('user')
-    if user == '':
-       errors['user'] = 'Заполните поле!'
-       age = request.args.get('age')
-    if age == '':
-       errors['age'] = 'Заполните поле!'
+   errors = {}
+   user = request.args.get('user')
+   age = request.args.get('age')
+   if user== '':
+      errors['user'] = 'Заполните поле!'
     
-    sex = request.args.get('sex')
-    return render_template('form1.html', user = user, age = age, sex = sex, errors = errors)
+   sex = request.args.get('sex')
+   return render_template('form1.html', user = user, age = age, sex = sex, errors = errors)
 
 @lab3.route('/lab3/order')
 def order():
@@ -40,3 +38,32 @@ def pay():
       price += 10
       
    return render_template('pay.html', price=price)
+
+@lab3.route('/lab3/success')
+def success():
+   return render_template('success.html')
+
+@lab3.route('/lab3/ticket')
+def ticket():
+   errors = {}
+   user = request.args.get('user')
+   type = request.args.get('type')
+   shelf = request.args.get('shelf')
+   age = request.args.get('age')
+   Destination = request.args.get('Destination')
+   bag = request.args.get('bag')
+   date = request.args.get('date')
+   Departure_point = request.args.get('Departure_point')
+   return render_template('ticket.html', user=user, type=type, shelf=shelf, age=age, Departure_point=Departure_point, Destination=Destination, date=date, bag=bag)
+
+@lab3.route('/lab3/pay_tic')
+def pay_tic():
+   user = request.args.get('user')
+   shelf = request.args.get('shelf')
+   age = request.args.get('age')
+   Destination = request.args.get('Destination')
+   bag = request.args.get('bag')
+   date = request.args.get('date')
+   Departure_point = request.args.get('Departure_point')
+   type = request.args.get('type')
+   return render_template('pay_tic.html', user=user, type=type, shelf=shelf, age=age, Departure_point=Departure_point, Destination=Destination, date=date, bag=bag)
