@@ -10,10 +10,11 @@ def lab():
 def form1():
    errors = {}
    user = request.args.get('user')
-   age = request.args.get('age')
    if user== '':
       errors['user'] = 'Заполните поле!'
-    
+   age = request.args.get('age')
+   if age == '':
+      errors['age'] = 'Заполните поле!'
    sex = request.args.get('sex')
    return render_template('form1.html', user = user, age = age, sex = sex, errors = errors)
 

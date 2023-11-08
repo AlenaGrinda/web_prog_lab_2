@@ -28,10 +28,10 @@
                 <label>Полка:</label>
                 <div>
                     <select name = "shelf">
-                        <option value="upper" {{ type == 'Верхняя' and 'selected' }} >Верхняя</option>
-                        <option value="lower" {{ type == 'Нижняя' and 'selected' }}>Нижняя</option>
-                        <option value="upper side" {{ type == 'Верхняя боковая' and 'selected' }} >Верхняя боковая</option>
-                        <option value="lower side" {{ type == 'Нижняя боковая' and 'selected' }}>Нижняя боковая</option>
+                        <option value="upper" {{ shelf == 'upper' and 'selected' }} >Верхняя</option>
+                        <option value="lower" {{ shelf == 'lower' and 'selected' }}>Нижняя</option>
+                        <option value="upper side" {{ shelf == 'upper side' and 'selected' }} >Верхняя боковая</option>
+                        <option value="lower side" {{ shelf == 'lower side' and 'selected' }}>Нижняя боковая</option>
                     </select>
                 </div>
             </div>
