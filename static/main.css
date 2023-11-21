@@ -3,7 +3,7 @@ body {
     background-color: rgb(173, 230, 255);
 }
 h1 {
-    font-size:50pt;
+    font: size 50px;
     font-family: 'Courier New', Courier, monospace;
     margin-left: auto;
 }
@@ -51,7 +51,7 @@ footer {
     left: 0;
 }
 
-.error {
+.errors {
     text-align: left;
     color: rgb(203, 24, 0);
     padding: 5px;
