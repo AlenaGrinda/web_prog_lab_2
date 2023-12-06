@@ -96,7 +96,7 @@ def LoginPage():
 
     if not (username and password):
         errors.append("Пожалйсута, заполните всеп поля")
-        return render_template("?login5.html", errors=errors)
+        return render_template("login5.html", errors=errors)
     
 
     conn = dbConnect()
@@ -166,7 +166,7 @@ def getArticle(article_id):
         conn = dbConnect()
         cur = conn.cursor()
 
-        cur.execute("SELECT title, article_text FROM articles WHERE id = %s and user_id = %s", (article_id, userID))
+        cur.execute("SELECT title, article_text FROM articles WHERE id=%s",(article_id,))
 
         articleBody = cur.fetchone()
 
