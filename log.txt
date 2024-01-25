@@ -1,0 +1,233 @@
+commit 442ea0734a5d643013f84229d7132e2f3a2c03ec
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Wed Dec 6 14:29:06 2023 +0700
+
+    Лабораторная работа 6 конец
+
+commit f04662954b2c29e3a01431eb823686e3c12bccde
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Tue Dec 5 20:09:29 2023 +0700
+
+    Лабораторная работа 6
+
+commit 1ee6b9a2ca26902de538ca58b144ec7db27a7d3b
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Wed Nov 22 02:43:13 2023 +0700
+
+    Базы данныз пользователей
+
+commit 34f1f770af78fcdee70f3eac2d7989ea3f378787
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Tue Nov 21 20:55:29 2023 +0700
+
+    Вывод пользователей
+
+commit d0f27bc894ea129d22c7549a5589c672ef5bb2e7
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Tue Nov 21 16:57:04 2023 +0700
+
+    Лабораторная работа 5
+
+commit 7194c0d4f064635e972dc92ed2578f14afff9cb0
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Wed Nov 8 22:13:29 2023 +0700
+
+    Куки
+
+commit 6632c6288b75b31e7642b98c34658e358f6bff29
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Wed Nov 8 14:12:17 2023 +0700
+
+    Заказ зерна
+
+commit a10226a4f0720d2e39f03ccf20a3e188f23117dd
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Wed Nov 8 14:05:53 2023 +0700
+
+    Холодильник
+
+commit 69c525bc91b39d9ac8442f73ad4901bcd768fd68
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Wed Nov 8 13:59:26 2023 +0700
+
+    Авторизация
+
+commit 1ac10c9c13329c3aef2f7e182738e8b73e09ab6f
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Wed Nov 8 13:45:28 2023 +0700
+
+    Заготовка к Лабораторной работе 4
+
+commit 6b72c39f875fdc8cea01578a7243d60ddf1e1d1e
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Wed Nov 8 13:29:35 2023 +0700
+
+    Лабораторная работа 4
+
+commit 0f9aecf3abbb6c8dd2025fe253aecad8ef4bdb85
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Tue Oct 24 20:11:48 2023 +0700
+
+    Исправления
+
+commit 21656fae51a01349755119bd3332a415e82b81b2
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Tue Oct 24 19:52:11 2023 +0700
+
+    Железнодорожный билет
+
+commit 3d27af4022c6190eb066069b2f1bb04d14c1144b
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Tue Oct 24 15:44:00 2023 +0700
+
+    Заказ напитка
+
+commit ed0d848904645e0cb04b2039ad6e0e2caf08b2bf
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Thu Oct 12 02:00:23 2023 +0700
+
+    Валидация
+
+commit cc6c976c6a311e1568009c4e1f4ecddd0eed0953
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Thu Oct 12 01:21:14 2023 +0700
+
+    Корректировка пола
+
+commit 1d9a389aba467bb47e6af45e90f02464c6de5555
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Thu Oct 12 01:02:35 2023 +0700
+
+    Форма
+
+commit 6819318bf42ad9d36c99cd4055820302761e7025
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Thu Oct 12 00:35:04 2023 +0700
+
+    Заготовка к третьей лабораторной работе
+
+commit 819c4870fab4f95474a55be3ccc27b0b7833d7ac
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Thu Oct 12 00:11:24 2023 +0700
+
+    Рефакторинг: выделение второй лабораторной
+
+commit 8f82f397760c5083a36e54f4d5ccc59b78d112eb
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Thu Oct 12 00:04:33 2023 +0700
+
+    Рефакторинг
+
+commit f26a2fb867d2333cd3207402411b4a6a41bfe0fd
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Wed Oct 11 23:51:36 2023 +0700
+
+    Лабораторная работа 3
+
+commit 9959f1e13ec7cae2647bec3ce972c0dc252325cd
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Sun Sep 24 02:17:49 2023 +0700
+
+    Добавлены ссылки
+
+commit 672204147459605b718c1425c9c2e4c2380bd18f
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Sun Sep 24 02:01:51 2023 +0700
+
+    Самостоятельное задание
+
+commit c9f3a08c6fc89ebc2345b315bf6c4705dedd3ad7
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Sun Sep 24 01:10:38 2023 +0700
+
+    Наследование шаблонов
+
+commit 16fa7a24e873d405728d497c425de68f28939925
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Sun Sep 24 00:55:09 2023 +0700
+
+    Книги
+
+commit e70525d149decfd7cc075b4ee83f111074d4d8a6
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Sun Sep 24 00:26:29 2023 +0700
+
+    Цикл в шаблоне
+
+commit c3617de94cc5de6e3f659106c307dc8f54d29292
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Sun Sep 24 00:03:58 2023 +0700
+
+    Условия в шаблоне
+
+commit a3df1a948c0e7df1b4c438a6b245623085af8349
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Sat Sep 23 23:30:51 2023 +0700
+
+    Подключение стилей
+
+commit fc3cc42ce9f90014f37ae5beaf36125d0e3ea384
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Sat Sep 23 23:18:02 2023 +0700
+
+    Шаблоны
+
+commit 92b6b1a86515330881cfae992ea2438254c05288
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Sat Sep 23 23:13:52 2023 +0700
+
+    Статичные файлы
+
+commit 61396e28a9e607c3e382c16015f3c55408206201
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Sat Sep 23 23:02:51 2023 +0700
+
+    Передача переменных в шаблон
+
+commit 1e0eaac65802329f7420aa52478d3c034d0ea6ae
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Sat Sep 23 22:57:02 2023 +0700
+
+    Заготовка шаблона
+
+commit 5a89d6c69ae584925365ecae42be0b6af47ad5f8
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Sat Sep 23 22:21:54 2023 +0700
+
+    Лабораторная работа 2
+
+commit 3c17c293d0b87bc696af506644b26ec286d1e4b8
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Wed Sep 13 18:50:40 2023 +0700
+
+    Роуты
+
+commit 935e1e8752db134bfccf7822ecf0275ef08e6192
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Wed Sep 13 18:00:53 2023 +0700
+
+    Статические файлы
+
+commit 77f51e83fabe11e1c742dfdf8aed89de3e1b1efb
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Wed Sep 13 17:26:58 2023 +0700
+
+    Меню
+
+commit d3d1a3563ac58e1526bc383f201d7038207d95e6
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Wed Sep 13 16:55:37 2023 +0700
+
+    «Добавление
+
+commit 7a569e70396851c66571dd072f214edff4a395cc
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Wed Sep 13 16:25:52 2023 +0700
+
+    Создан .gitignore
+
+commit de83f51410163aff9abada812459f0312d289358
+Author: Alena Grinda <alenagrinda@gmail.com>
+Date:   Wed Sep 13 16:17:55 2023 +0700
+
+    Лабораторная работа 1

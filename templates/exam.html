@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Проверка числа</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'main.css') }}">
+</head>
+<body>
+    <form method="post">
+        <label for="number">Введите число от 1 до 7:</label>
+        <input type="text" id="number" name="number">
+        <input type="submit" value="Послать">
+    </form>
+    {% if result %}
+        <p>{{ result }}</p>
+    {% endif %}
+</body>
+</html>
